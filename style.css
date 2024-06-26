@@ -7,13 +7,35 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #FDF0D5;
+  background-color: #0d1b2a;
   display: flex;
   justify-content: center;
 }
 
+
 .taskUI-background {
-  margin-top: 25px;
-  height: 70px;
-  width: 100px;
+  margin-top: 2.5rem;
+  height: 270px;
+  width: 500px;
+  background-color: #1b263b;
+}
+
+.project-name {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 2.5rem;
+  color: #e0e1ed;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  width: 200px;
+  margin-right: 10px;
 }
